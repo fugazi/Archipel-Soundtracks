@@ -1,0 +1,460 @@
+/*
+	Archipel Soundtracks :: styles.css
+	----------------------------------------------------------
+	
+	Web Developer	:: Douglas Fugazi
+	http://www.facebook.com/douglasfugazi
+	
+---------------------------------------------------------------*/
+
+/* Reset CSS // All Browsers
+-------------------------------------------------------------------------------*/
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}									
+
+article, aside, figure, footer, header, hgroup, nav, section {display: block;}
+object, embed {max-width: 100%;}
+
+html {overflow-y: scroll;}
+ul {list-style: none;}
+blockquote, q {quotes: none;}
+
+blockquote:before, 
+blockquote:after, 
+q:before, 
+q:after {content: ''; content: none;}
+
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; text-decoration:none;}
+a:link {text-decoration:none; color: #5d5d5d;}
+a:visited {text-decoration:none; color: #5d5d5d;}
+a:active {text-decoration:none; color: #b2b2b2;}
+a:hover {text-decoration:none; color: #b2b2b2;}
+	
+del {text-decoration: line-through;}
+
+abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+
+/* tables still need cellspacing="0" in the markup */
+table {border-collapse: collapse; border-spacing: 0;}
+th {font-weight: bold; vertical-align: bottom;}
+td {font-weight: normal; vertical-align: top;}
+
+hr {border: 0; border-bottom: 1px solid #d5d5d5;}
+input, select {vertical-align: middle;}
+
+/* Ok, this is where the fun starts.
+-------------------------------------------------------------------------------*/
+
+body {
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	font-size: 14px;
+	background-image:url(../img/bg.png);
+}
+body, select, input, textarea {color: #333;}
+@font-face {
+font-family: "Atrament";
+src:url(../fonts/atrament-light.otf);
+font-family: "Kuro Regular";
+src:url(../fonts/kuro-regular.otf);
+}
+
+
+
+/* ================
+   Main Styles
+   ================ */
+
+#contIndex {
+	background-image: url(../img/bg-bottom.png);
+	background-attachment:fixed;
+	background-repeat:repeat-x;
+	background-position: bottom;
+}
+
+#login {
+	width:900px;
+    height:35px;
+    margin-left: 100px;
+    padding:10px 60px 0px 10px;
+
+}
+
+#login li {
+	float:right;
+	font-family:"Atrament";
+    font-size: 12px;
+    text-align: left;
+    margin-left: 0;
+    padding:0px 0px 0px 10px;
+    display: inline;
+}
+
+#wrapper {
+	
+	width:900px;
+	height:auto;
+	margin:20px 0 0 50px;
+}
+
+.container {
+	border-radius: 6px 6px 6px 6px;
+	width: 700px;
+    height: auto;
+    margin: 30px 0 0 120px;
+    padding: 18px 15px 30px;
+    position: relative;
+    vertical-align: 10px;
+}
+
+.logo {
+  top: 50%;
+  left: 50%;
+  margin-left: 190px;
+}
+
+.mainLeft {
+	width:350px;
+	height: 250px;
+	margin: 20px 0 0 -5px;
+}
+.mainConcept h1 {
+	
+	font-family:"Atrament";
+	font-size:38px;
+	font-weight:lighter;
+	margin:5px 0 0 100px;
+}
+.mainConcept p {
+	
+	margin: 50px 0 0 10px;
+	font-family: "Kuro Regular";
+	font-size:12px;
+	display: inline;
+   	text-align: justify;
+   	text-indent: 10px;
+}
+
+.mainRight {
+	
+	float: right;
+	width: 350px;
+	height: 250px;
+	margin: -252px -5px 0 0;
+}
+.mainManifesto h1 {
+
+	font-family:"Atrament";
+	font-size:38px;
+	font-weight:lighter;
+	margin:5px 0 0 100px;
+	
+}
+.mainManifesto p {
+	
+	margin: 50px 0 0 10px;
+	font-family: "Kuro Regular";
+	font-size:12px;
+	display: inline;
+   	text-align: justify;
+   	text-indent: 10px;
+}
+.mainMembership {
+	
+	font-family:"Atrament";
+	font-size:18px;
+	font-weight:lighter;
+	text-decoration:underline;
+	margin: 30px 0 0 350px;
+}
+.mainMemberContact {
+
+	font-family:"Atrament";
+	font-size: 18px;
+	font-weight:lighter;
+	text-decoration:underline;
+	margin: 50px 0 0 25px;
+	color: black;
+
+}
+.endFooter p {
+	
+	font-family: "Atrament";
+	color: #a7aebc;
+    float: right;
+    font-size: 12px;
+    font-style: normal;
+    margin: -20px 30px 0 0;
+}
+
+/* ================
+   Welcome Styles
+   ================ */
+
+.logoWelcome {
+	margin: 0 0 -11px 170px;
+}
+#contWelcome {
+	width: 980px;
+	height: auto;
+	margin: 50px 0 0 170px;
+	border-radius: 6px 6px 6px 6px;
+}
+
+.breadcrumb {
+  padding: 7px 14px;
+  margin: 0 0 18px;
+}
+.breadcrumb li {
+	font-family: "Kuro Regular";
+	font-size:12px;
+	font-weight:bold;
+	display: inline;
+}
+.breadcrumb .actived {
+  	color: #b2b2b2;
+}
+.breadcrumb a:visited {
+	color: #5d5d5d;
+}
+.breadcrumb a:hover {
+	color: #b2b2b2;
+}
+.headerWelcome {
+	margin: 50px 0 0 18px;
+  	font-family: "Atrament";
+  	font-size:40px;
+  	font-weight: bolder;
+}
+.lineWelcome {
+	padding: 7px 14px;
+	margin-bottom:10px;
+}
+.contCase {
+	width: auto;
+	height: auto;	
+}
+.profileUser {
+	margin: 40px 0 0 18px;
+	width:288px;
+	height: auto;
+	
+}
+.profileText {
+	font-family: "Atrament", Arial, sans-serif;
+	font-size: 19px;
+	font-weight:lighter;
+	text-align:center;	
+}
+.profileText a:visited {
+	color:#191919;
+}
+.profileText a:hover {
+	color: #b2b2b2;
+}
+.infinitum  {
+	margin: -244px 330px 0 0;
+	width: 308px;
+	height: auto;
+	float:right;
+}
+.infinitum a:visited {
+	color:#191919;
+}
+.infinitum a:hover {
+	color: #b2b2b2;
+}
+.contribute{
+	margin: -244px 12px 0 0;
+	width: 288px;
+	height: auto;
+	float:right;
+}
+.contribute a:visited {
+	color:#191919;
+}
+.contribute a:hover {
+	color: #b2b2b2;
+}
+.welcomeFooter{
+	font-family: "Atrament";
+	color: #a7aebc;
+    float: left;
+    font-size: 12px;
+    font-style: normal;
+    margin: -20px 30px 0 0;
+}
+.welcomeFooter ul {
+	float: left;
+	margin-left: 800px;
+}
+.welcomeFooter li {
+	font-family: "Kuro Regular";
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:underline;
+	display: inline;
+}
+.welcomeFooter .actived {
+  	color: #b2b2b2;
+}
+.welcomeFooter a:visited {
+	color: #5d5d5d;
+}
+.welcomeFooter a:hover {
+	color: #b2b2b2;
+}
+
+/* =====================
+   Modify Profile Styles
+   ===================== */
+
+.headerModify {
+	margin: 50px 0 0 18px;
+  	font-family: "Atrament";
+  	font-size:30px;
+  	font-weight: bolder;
+}
+.contProfile {
+	width: 1000px;
+	height: 750px;
+}
+.modifyUser {
+	margin: 20px 0 0 18px;
+	width:288px;
+	height: auto;
+}
+.modifyText {
+	font-family: "Kuro Regular";
+  	font-size:11px;
+  	font-weight: bolder;
+  	margin-top: 15px;
+}
+.modifyCont {
+	width:400px;
+	height:auto;
+	float:right;
+	margin: -296px 260px 0 0;
+	font-family: "Kuro Regular";
+  	font-size:14px;
+  	font-weight: bold;
+	
+}
+.modifyEditProfile {
+	font-family: "Kuro Regular";
+  	font-size:10px;
+  	font-weight: bolder;
+}
+.modifyTop {
+	margin-top:5px;
+}
+.modifyCurrent {
+	width:400px;
+	height:auto;
+	float:right;
+	margin: 20px 260px 0 0;
+	font-family: "Kuro Regular";
+  	font-size:14px;
+  	font-weight: bold;
+}
+.modifyAlbum {
+	width:390px;
+	height:auto;
+	float:right;
+	margin: 30px 270px 0 0;
+	font-family: "Kuro Regular";
+  	font-size:14px;
+  	font-weight: bold;
+}
+.modifyConcept{
+	width:250px;
+	height:auto;
+	float:right;
+	margin: -405px 0px 0 250px;
+	font-family: "Atrament";
+  	font-size:13px;
+  	color: #7f7f7f;	
+  	font-weight: lighter;
+  	text-align:justify;
+}
+
+/* =====================
+   Infinitum Styles
+   ===================== */
+
+.headerInfinitum {
+	margin: 50px 0 0 18px;
+  	font-family: "Atrament";
+  	font-size:30px;
+  	font-weight: bolder;
+}
+.contInfinitum {
+	width: 1000px;
+	height: 550px;
+	margin-top:30px;
+}
+.infinitumPicture {
+	margin: 20px 0 0 25px;
+	width: 220px;
+	height: auto;
+}
+.infinitumText {
+	font-family: "Atrament";
+  	font-size:13px;
+  	color: #7f7f7f;	
+  	font-weight: lighter;
+  	margin-top: 20px;
+  	text-align:justify;
+}
+.infinitumParam {
+	width:550px;
+	height:auto;
+	float:right;
+	margin: -385px 160px 0 0;
+	font-family: "Kuro Regular";
+  	font-size:14px;
+  	font-weight: bold;
+}
+.infinitumTop {
+	margin-top: 20px;
+}
+.infinitumAlign {
+	float: right;
+	margin-right: 50px;
+	
+}
+.infinitumDate {
+	width:305px;
+	height:70;
+	float:right;
+	margin: -220px 405px 0 0;
+	font-family: "Kuro Regular";
+  	font-size:14px;
+  	font-weight: bold;
+}
+.dtAlign {
+	margin-left: 46px;
+}
+.dtAligne{
+	margin-left: 40px;
+}
+.infinitumRandom {
+	width:305px;
+	height:70;
+	float:right;
+	margin: -130px 405px 0 0;
+	font-family: "Kuro Regular";
+  	font-size:14px;
+  	font-weight: bold;
+}
+.infinitumSubmit {
+	font-family: "Kuro Regular";
+  	font-size:10px;
+  	font-weight: bolder;
+}
